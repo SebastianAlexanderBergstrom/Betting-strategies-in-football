@@ -107,17 +107,18 @@ compare_strategy_different_seasons <- function(data_frame,
                   " as lower and upper odds limits, respectively")
   
   if(desired_output == "Balance"){
-    ggplot(data=new_data_frame,
+    print(ggplot(data=new_data_frame,
            aes(x=Round,y=Balance,fill=Season,color=Season))+
       geom_point()+
       geom_line()+
       geom_hline(yintercept = initial_value,linetype="dashed",show.legend = TRUE)+
-      ggtitle(title)
+      ggtitle(title))
   }
   if(desired_output == "Returns"){
-    ggplot(data=new_data_frame,
-           aes(x=Returns,fill=Season,color=Season))+
-      geom_density(alpha=0.5)+
-      ggtitle(title)
+    print(ggplot(data=new_data_frame,
+                aes(x=Returns,fill=Season,color=Season))+
+                geom_density(alpha=0.5)+
+                ggtitle(title))
+
   }
 }
