@@ -10,7 +10,8 @@ using<-function(...) {
   }
 }
 
-using("curl","ggplot2","easyGgplot2")
+using("curl","ggplot2","devtools")
+install_github("easyGgplot2", "kassambara")
 # Loading functions and data ----------------------------------------------
 library(curl)
 
