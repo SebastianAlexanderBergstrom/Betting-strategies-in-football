@@ -1,5 +1,5 @@
 # Betting-strategies-in-football
-Note: The files are currently not ordered in folders since I'm in a bit of a hurry, I'll take care of this soon. 11th Septemeber 2018.
+Note: The files are currently not ordered in folders yet, I'll take care of this soon. Until then, the files ending in "functions.R" contain function definitions while the ones ending in "analysis.R" are scripts that can be executed. The .csv-files are data files from http://www.football-data.co.uk/data.php. 11th Septemeber 2018.
 
 The code and data files are part of a hobby project for simulating different betting strategies in football. The general idea behind the functions is described on my blog (see link below).
 
